@@ -227,11 +227,13 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.8em;
+		font-size: 2.75em;
+		color: #000000;
 	}
 
 	h6 {
-		font-size: 0.6em;
+		font-size: 1.75em;
+		color: #000000;
 	}
 
 	@media screen and (max-width: 736px) {
