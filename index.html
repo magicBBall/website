@@ -1,91 +1,209 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <style>
-        body { margin: 0; padding: 0; }
-        html { height: 100%; cursor: default; }
-        body {
-            font-family: "Roboto", sans-serif; /* Default font */
-            width: 100%; height: 100%;
-            text-align: center;
-            display: table;
-            opacity: 1;
-            animation: fadein 3s forwards;
-        }
-        h2 {
-            font-weight: 300;
-            margin-bottom: 25px;
-        }
-        img {
-            width: 25%; /* Image width */
-            border: 0; /* For IE */
-        }
-        #main {
-            vertical-align: middle;
-            display: table-cell;
-        }
-        /* Progress bar */
-        #progress {
-            width: 45%; /* Bar width */
-            margin: 0 auto;
-            border-radius: 10px; /* Roundness */
-            background-color: #a8a8a8; /* Background colour */
-            padding: 7px 5px;
-            /* border: 5px solid #a8a8a8; Border */
-        }
-        #fill {
-            padding: 2px 0;
-            background-color: #00b98b; /* Fill colour */
-            width: 25%; /* Bar percentage, change text below also */
-            border-radius: 25px; /* Roundness */
-            animation: proanimate 2s;
-        }
-        #barpercent h3 {
-            color: white; /* Bar percentage text colour */
-            margin: 0; padding: 0;
-            opacity: 1;
-            animation: fadein 3s forwards;
-        }
+	<head>
+		<title>Magic Basketball Club - Bacchus Marsh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-        /* Fades in animation */
-        @keyframes fadein  {
-            from { opacity: 0; }
-        }
-        /* Animates bar on page load */
-        @keyframes proanimate {
-            from { width: 0%; }
-        }
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Who we are</a></li>
+							<li><a href="#two">Learn More</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-        @media screen and (max-width:600px) {
-            img {
-                width: 60%;
-            }
-            h1 {
-                font-size: 1.3em;
-            }
-            h2 {
-                margin: 1.1em;
-                font-size: 1.1em;
-            }
-            #progress {
-                width: 80%; /* Bar width */
-            }
-        }
-    </style>
-    <title>Bacchus Marsh Magic Basketball Club</title>
-</head>
-<body>
-    <div id="main">
-        <img src="logo.png" alt="Logo Image">
-        <h1>Bacchus Marsh Magic Basketball Club</h1>
-        <h2>Our website is currently under construction. </h2>
-        <div id="progress"><div id="fill"><div id="barpercent"><h3>20%</h3></div></div></div>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-        <p><br>While you're waiting, please check out our <a href="https://www.facebook.com/MagicBasketballClub/">Facebook Page</a></p>
-    </div>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-</body>
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<img src="images/Club-Logo-Tiles-magic.png" alt="Magic Basketball Club" data-position="center center" />
+							<h6>Bacchus Marsh</h6>
+							<h5>Magic Basketball Club</h5>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<img src="images/IMG_0787_2.jpg" alt="" data-position="center center" />
+							<div class="content">
+								<div class="inner">
+									<h2>About Us</h2>
+									<p>Magic Basketball Club is a family focussed, community minded club who welcome players of all levels of abilities, whether it be to play for fun, competitively or to make new friendships.</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<img src="images/IMG_0787_2.jpg" alt="" data-position="top center" />
+							<div class="content">
+								<div class="inner">
+									<h3>Junior and Senior Compitition</h3>
+									<p>The club offers boys and girls’ teams from Under 8 through to Under 19’s in a junior competition. In addition to this, we offer Men’s teams in the senior competition. After all, sometimes the big kids want in on the fun too.</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<img src="images/IMG_0787_2.jpg" alt="" data-position="25% 25%" />
+							<div class="content">
+								<div class="inner">
+									<h3>Coaching</h3>
+									<p>Magic coaches provide players and teams with opportunities to learn new skills and develop existing ones. The club also holds age specific focussed training days as well as social engagements to promote fun and bring the Magic family together. Aside from fun, Magic is big on teamwork, respect and sportsmanship.</p>
+									<p>If you are interested in coaching a team, please contact us via the form below.</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<img src="images/IMG_0787_2.jpg" alt="" data-position="top center" />
+							<div class="content">
+								<div class="inner">
+									<h3>Committee</h3>
+									<p>The club is run by a small committee made up of parents of some of our players (Past and Present). The committee meets once a month. If you are able to help out with running the club, please let us know via the form below.</p>
+									<ul class="actions">
+										<li><a href="#three" class="button">Join the Magic family</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Learn more</h2>
+							<p>Please find below links to all the club documents and policies</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>New Player Info</h3>
+									<p>What to do and what to expect when you join the club</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>Coaching with Magic</h3>
+									<p>Basic coaching information, including resources and contact information.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-gem"></span>
+									<h3>Team Manager</h3>
+									<p>All about the team manager role and what's involved.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Code of Conduct</h3>
+									<p>Info on the clubs and associations expectations for players, coaches and spectators.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-university"></span>
+									<h3>Payment Policy</h3>
+									<p>How to join the teams communications portal.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-ambulance"></span>
+									<h3>Incident report form</h3>
+									<p>Forms to log any incidents/injuries which occur at training</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style2 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>Please send a message to our registrations mailbox with any queries about the club</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="https://formsubmit.co/d4fdd7cef48b333c05f891b28a5c013d ">
+
+										<!-- Formsubmit options-->
+										<input type="text" name="_honey" style="display:none">
+										<input type="hidden" name="_next" value="https://www.magicbasketballbm.org.au/v2/index.html#3">
+										<input type="hidden" name="_subject" value="Website Enquiry">
+										<input type="hidden" name="_captcha" value="false">
+										<input type="hidden" name="_template" value="table">
+
+
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" placeholder="Your Name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" placeholder="Email Address" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" placeholder="Please enter your query" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>President</h3>
+											<span>12345 Somewhere Road #654<br />
+											Nashville, TN 00000-0000<br />
+											USA</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">user@untitled.tld</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>(000) 000-0000</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="https://www.facebook.com/MagicBasketballClub/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>Thanks for Visiting Magic Basketball Club.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
