@@ -228,12 +228,12 @@ input, select, textarea {
 
 	h5 {
 		font-size: 2.75em;
-		color: #000000;
+		color: #ffffff;
 	}
 
 	h6 {
 		font-size: 1.75em;
-		color: #000000;
+		color: #ffffff;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -3242,7 +3242,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #ffffff;
+			background-color: #41536B;
 		}
 
 		.wrapper.style1-alt {
@@ -3526,7 +3526,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #41536B;
 		cursor: default;
 		height: 100vh;
 		left: 0;
